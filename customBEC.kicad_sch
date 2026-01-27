@@ -1165,6 +1165,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Switching:TPS5430DDA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2671,6 +2754,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09396d9d-483d-4b51-aebb-bf663068ec47")
+		(property "Reference" "H4"
+			(at 25.4 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 25.4 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 22.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "customBEC"
+				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1281a883-f3dc-4013-8489-3e53f9ea3e3d")
+		(property "Reference" "H3"
+			(at 25.4 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 25.4 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "customBEC"
+				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d51ee5b-a591-4364-afd0-99f1850884ea")
+		(property "Reference" "H1"
+			(at 25.4 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 25.4 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Ferrite")
 		(at 158.75 33.02 90)
 		(unit 1)
@@ -2748,7 +3023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f412221-16ab-488b-9b87-25269ca9a910")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 180.34 36.8299 0)
 			(effects
 				(font
@@ -2802,7 +3077,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2818,7 +3093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4704a21e-6ad6-4e48-9f34-4e6b81086414")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 47.625 27.94 0)
 			(effects
 				(font
@@ -2870,7 +3145,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2885,7 +3160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "485bb2ce-f6ac-4b04-9230-329dd3ad5b21")
-		(property "Reference" "C32"
+		(property "Reference" "C3"
 			(at 127.508 32.766 0)
 			(effects
 				(font
@@ -2939,7 +3214,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "C32")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2955,7 +3230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ced9102-7bf9-4e41-8dea-cd309e216546")
-		(property "Reference" "R13"
+		(property "Reference" "R4"
 			(at 180.34 45.7199 0)
 			(effects
 				(font
@@ -3009,7 +3284,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "R13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3025,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab87c20-e714-4707-8e52-ef65292d5a73")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 111.76 25.4 0)
 			(effects
 				(font
@@ -3100,7 +3375,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3117,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "620d3401-ed9e-4459-986a-f051c01c81bc")
-		(property "Reference" "J19"
+		(property "Reference" "J4"
 			(at 226.06 68.5799 0)
 			(effects
 				(font
@@ -3171,7 +3446,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "J19")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6760dfea-3fcc-41e1-87ef-d5a9db983197")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 215.265 27.94 0)
 			(effects
 				(font
@@ -3239,7 +3514,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -3255,7 +3530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78117a43-6b97-4602-a1ce-592e5e27d3fd")
-		(property "Reference" "R14"
+		(property "Reference" "R1"
 			(at 87.63 38.0999 0)
 			(effects
 				(font
@@ -3309,7 +3584,71 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "R14")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d98ce9-d753-464a-8532-14f37499b7e7")
+		(property "Reference" "H2"
+			(at 25.4 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 25.4 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 22.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "customBEC"
+				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3325,7 +3664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bedadcec-b097-47cc-af66-0e4f167e8546")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 193.04 47.3074 90)
 			(effects
 				(font
@@ -3388,7 +3727,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3403,7 +3742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf3f8ce9-a0fb-4eba-b01b-68a9eed137df")
-		(property "Reference" "C34"
+		(property "Reference" "C2"
 			(at 95.504 44.958 0)
 			(effects
 				(font
@@ -3457,7 +3796,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "C34")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3474,7 +3813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5028bc5-333d-4129-9198-a2aa42b774fa")
-		(property "Reference" "J18"
+		(property "Reference" "J3"
 			(at 226.06 59.6899 0)
 			(effects
 				(font
@@ -3528,7 +3867,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "J18")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3543,7 +3882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6530721-e1fb-42ed-82ce-724e50a6cbb7")
-		(property "Reference" "C33"
+		(property "Reference" "C4"
 			(at 166.624 36.068 0)
 			(effects
 				(font
@@ -3597,7 +3936,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "C33")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3613,7 +3952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddac190a-ba83-472e-a9bb-c3272e3b852b")
-		(property "Reference" "R15"
+		(property "Reference" "R2"
 			(at 87.63 45.7199 0)
 			(effects
 				(font
@@ -3667,7 +4006,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "R15")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3683,7 +4022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8f03a6c-ca3d-4c7d-b3c0-588ba471b997")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 191.77 36.8299 0)
 			(effects
 				(font
@@ -3737,7 +4076,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3753,7 +4092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea014cb7-be46-4bd5-9e3b-6532808abd85")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 156.21 36.5124 90)
 			(effects
 				(font
@@ -3899,7 +4238,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3914,7 +4253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed99fa31-90f7-47e0-a0d7-1f9ff9f1aa49")
-		(property "Reference" "C31"
+		(property "Reference" "C1"
 			(at 76.454 39.878 0)
 			(effects
 				(font
@@ -3968,7 +4307,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "C31")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4049,7 +4388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f53c58c9-5e7d-4db1-8c43-cbed1d3195a3")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 135.636 29.21 0)
 			(effects
 				(font
@@ -4100,7 +4439,7 @@
 		(instances
 			(project "customBEC"
 				(path "/26ae447a-556c-41d7-b94e-349c816457aa"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
