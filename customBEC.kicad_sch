@@ -2834,7 +2834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_Hirose:Hirose_DF13-02P-1.25DS_1x02_P1.25mm_Horizontal"
 			(at 46.99 33.02 0)
 			(effects
 				(font
@@ -3195,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Value" "From BEC"
+		(property "Value" "Extra Header"
 			(at 215.265 30.48 0)
 			(effects
 				(font
