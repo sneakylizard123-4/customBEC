@@ -8,3 +8,6 @@ there is a +batt and -batt, connect battery there
 there is +5V and GND for output
 
 # Pictures
+blender render:
+PCB:
+schematic:
